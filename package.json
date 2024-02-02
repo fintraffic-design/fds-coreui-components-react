@@ -5,7 +5,14 @@
     "access": "public"
   },
   "description": "React wrappers for Fintraffic Design System Core UI (Web) Components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fintraffic-design/fds-coreui-components-react.git"
+  },
   "homepage": "https://design.fintraffic.fi/",
+  "bugs": {
+    "url": "https://github.com/fintraffic-design/fds-coreui-components-react/issues"
+  },
   "type": "module",
   "files": [
     "dist"
