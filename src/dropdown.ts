@@ -34,7 +34,7 @@ type FdsDropdownGeneric<T> = ReactWebComponent<
 >
 type SourceProps<T> = React.ComponentProps<FdsDropdownGeneric<T>>
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-function-return-type
-export function FdsDropdown<T = any>(props: SourceProps<T>) {
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+export function FdsDropdown<T>(props: SourceProps<T>) {
   return React.createElement(FdsDropdownRaw as FdsDropdownGeneric<T>, props)
 }
