@@ -1,0 +1,50 @@
+{
+  "name": "@fintraffic/fds-coreui-components-react",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "React wrappers for Fintraffic Design System Core UI (Web) Components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fintraffic-design/fds-coreui-components-react.git"
+  },
+  "homepage": "https://design.fintraffic.fi/",
+  "bugs": {
+    "url": "https://github.com/fintraffic-design/fds-coreui-components-react/issues"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "lint": "eslint \"src/**/*.ts\"",
+    "build": "npm run compile && npm run lint && npm run stylecheck",
+    "stylecheck": "prettier --check src"
+  },
+  "author": "Fintraffic",
+  "license": "EUPL-1.2",
+  "dependencies": {
+    "@fintraffic/fds-coreui-components": "^0.1.0"
+  },
+  "devDependencies": {
+    "@lit/react": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-lit": "^1.10.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.1.0",
+    "ts-lit-plugin": "^2.0.1",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
