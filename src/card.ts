@@ -1,7 +1,7 @@
 import React from 'react'
 import { EventName, createComponent } from '@lit/react'
 import { FdsCard as _FdsCard } from '@fintraffic/fds-coreui-components'
-import '@fintraffic/fds-coreui-components/dist/define/fds-card'
+import '@fintraffic/fds-coreui-components/dist/define/fds-card.js'
 
 export { FdsCardElevation } from '@fintraffic/fds-coreui-components'
 

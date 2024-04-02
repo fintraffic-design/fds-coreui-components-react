@@ -1,7 +1,7 @@
 import React from 'react'
 import { createComponent } from '@lit/react'
 import { FdsIcon as _FdsIcon } from '@fintraffic/fds-coreui-components'
-import '@fintraffic/fds-coreui-components/dist/define/fds-icon'
+import '@fintraffic/fds-coreui-components/dist/define/fds-icon.js'
 
 export { FdsIcons, FdsIconType } from '@fintraffic/fds-coreui-components'
 
