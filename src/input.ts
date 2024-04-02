@@ -1,7 +1,7 @@
 import React from 'react'
 import { EventName, createComponent } from '@lit/react'
 import { FdsInput as _FdsInput } from '@fintraffic/fds-coreui-components'
-import '@fintraffic/fds-coreui-components/dist/define/fds-input'
+import '@fintraffic/fds-coreui-components/dist/define/fds-input.js'
 
 export const FdsInput = createComponent({
   tagName: 'fds-input',

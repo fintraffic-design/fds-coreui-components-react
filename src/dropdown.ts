@@ -1,7 +1,7 @@
 import React from 'react'
 import { EventName, ReactWebComponent, createComponent } from '@lit/react'
 import { FdsDropdown as _FdsDropdown, FdsDropdownEvent } from '@fintraffic/fds-coreui-components'
-import '@fintraffic/fds-coreui-components/dist/define/fds-dropdown'
+import '@fintraffic/fds-coreui-components/dist/define/fds-dropdown.js'
 
 export { FdsDropdownEvent, FdsDropdownOption } from '@fintraffic/fds-coreui-components'
 

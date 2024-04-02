@@ -1,7 +1,7 @@
 import React from 'react'
 import { EventName, createComponent } from '@lit/react'
 import { FdsCombobox as _FdsCombobox, FdsComboboxEvent } from '@fintraffic/fds-coreui-components'
-import '@fintraffic/fds-coreui-components/dist/define/fds-combobox'
+import '@fintraffic/fds-coreui-components/dist/define/fds-combobox.js'
 
 export { FdsComboboxEvent } from '@fintraffic/fds-coreui-components'
 

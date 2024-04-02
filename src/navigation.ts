@@ -1,7 +1,7 @@
 import React from 'react'
 import { EventName, createComponent } from '@lit/react'
 import { FdsNavigation as _FdsNavigation, FdsNavigationItem } from '@fintraffic/fds-coreui-components'
-import '@fintraffic/fds-coreui-components/dist/define/fds-navigation'
+import '@fintraffic/fds-coreui-components/dist/define/fds-navigation.js'
 
 export {
   FdsNavigationItem,

@@ -1,7 +1,7 @@
 import React from 'react'
 import { EventName, createComponent } from '@lit/react'
 import { FdsCheckbox as _FdsCheckbox } from '@fintraffic/fds-coreui-components'
-import '@fintraffic/fds-coreui-components/dist/define/fds-checkbox'
+import '@fintraffic/fds-coreui-components/dist/define/fds-checkbox.js'
 
 export const FdsCheckbox = createComponent({
   tagName: 'fds-checkbox',
